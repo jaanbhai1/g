@@ -260,7 +260,7 @@ int main(int argc, char *argv[]) {
     signal(SIGINT, signalHandler);
     signal(SIGTERM, signalHandler);
     
-    printf("🔥 IZANA LOCAL Powerful UDP Attack Initialized\n");
+    printf("🔥 MUSTU LOCAL Powerful UDP Attack Initialized\n");
     printf("🎯 Target: %s:%d\n", ipAddress, portNumber);
     printf("⏱️ Duration: %d seconds\n", durationSeconds);
     printf("🧵 Threads: %d\n", threadCount);
