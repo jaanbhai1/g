@@ -18,7 +18,7 @@
 #define MAX_TOTAL_PACKETS 9840
 #define DEFAULT_PPS       500
 #define PAYLOAD_SIZE      4096
-#define EXPIRATION_YEAR   2027
+#define EXPIRATION_YEAR   2029
 #define EXPIRATION_MONTH  10
 #define EXPIRATION_DAY    12
 
@@ -41,7 +41,7 @@ void checkExpiration() {
         ((tm_now->tm_year + 1900) == EXPIRATION_YEAR && 
          (tm_now->tm_mon + 1) == EXPIRATION_MONTH && 
          tm_now->tm_mday > EXPIRATION_DAY)) {
-        printf("❌ This file is closed by @SIDIKI_MUSTAFA_92. JOIN CHANNEL TO USE THIS FILE. @TF_FLASH92\n");
+        printf("❌ This file is closed by @TF_FLASH92. JOIN CHANNEL TO USE THIS FILE. @TF_FLASH92\n");
         exit(1);
     }
 }
@@ -231,7 +231,7 @@ int main(int argc, char *argv[]) {
     if (argc != 5) {
         printf("📖 Usage: %s <IP> <PORT> <TIME_SECONDS> <THREADS>\n", argv[0]);
         printf("💡 Example: %s 127.0.0.1 8080 60 100\n", argv[0]);
-        printf("💳 Full credit: @SIDIKI_MUSTAFA_92 : mustu\n");
+        printf("💳 Full credit: @IZANA_KUROKAWAx92 : ꧁𓊈 塘• 𝐈 𝐙 𝐀 𝐍 𝐀 ᵏᵘʳᵒᵏᵃʷᵃ𓊉꧂\n");
         return 1;
     }
     
@@ -260,12 +260,12 @@ int main(int argc, char *argv[]) {
     signal(SIGINT, signalHandler);
     signal(SIGTERM, signalHandler);
     
-    printf("🔥 MUSTU LOCAL Powerful UDP Attack Initialized\n");
+    printf("🔥 IZANA LOCAL Powerful UDP Attack Initialized\n");
     printf("🎯 Target: %s:%d\n", ipAddress, portNumber);
     printf("⏱️ Duration: %d seconds\n", durationSeconds);
     printf("🧵 Threads: %d\n", threadCount);
     printf("📦 Max Buffer: %d bytes\n", MAX_BUFFER_SIZE);
-    printf("💳 Author: @SIDIKI_MUSTAFA_92\n");
+    printf("💳 Author: @IZANA_KUROKAWAx92\n");
     printf("⚡ Starting attack...\n\n");
     
     srand(time(NULL));
@@ -299,7 +299,7 @@ int main(int argc, char *argv[]) {
     printf("\n✅ Attack finished!\n");
     printf("📨 Total packets sent: %lu\n", totalSent);
     printf("🎯 Packet limit: %d\n", MAX_TOTAL_PACKETS);
-    printf("💳 Full credit: @SIDIKI_MUSTAFA_92\n");
+    printf("💳 Full credit: @IZANA_KUROKAWAx92\n");
     
     return 0;
 }
